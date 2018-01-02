@@ -1,0 +1,122 @@
+body{
+	background-image: linear-gradient(to bottom right,rgba(168, 194, 237,0.2), rgba(3, 18, 43,0.9)),url(./images/bg10.jpg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+	color: white;
+	overflow-x: hidden;
+	
+	
+
+}
+
+.aboutme
+{
+	text-align: center;
+	color:  white;
+	padding-top: 70px;
+	/*text-shadow: 1px 1px 2px white;*/
+	font-size: 20px;
+	opacity: 0.9;
+}
+
+.aboutme img
+{
+	box-shadow: 20px 20px 100px black;
+}
+
+
+.sidenavs a
+{
+	position: absolute;
+	left:-88px;
+	padding: 20px;
+    padding-right: 40px;
+	width: 130px;
+	transition: 0.4s;
+	border-radius: 0px 8px 8px 0px;
+	color:rgba(0,0,0,0);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.sidenavs a:hover
+{	left:0px;
+	color: white;
+}
+	
+#me, #qualifications, #tech ,#cp ,#projects, #contact
+{
+	
+	background-color: 	rgba(0,0,0,0.4);
+}
+
+.table1
+{
+	width: 90%;
+	max-width: 90%;
+	font-size: 20px;
+
+}
+
+.table2
+{
+	width: 90%;
+	max-width: 90%;
+	font-size: 55px;
+
+}
+.table2 th
+{
+	font-size: 24px;
+}
+.table1 tr
+{
+	border-bottom: 2px solid rgba(206, 216, 232,0.6);
+}
+.he_icon
+{
+	height: 71px;
+	width: 400px;
+}
+.cf_icon
+{
+	height: 71px;
+	width: 350px;
+}
+.hr_icon
+{
+	height: 200px;
+	width: 200px;
+}
+.cc_icon
+{
+	height: 250px;
+	width: 250px;
+}
+
+.cp1, .cp2, .cp3, .cp4 ,.projlink
+{
+    text-align: center;
+}
+.cp1:hover ,.cp2:hover, .cp3:hover, .cp4:hover
+{
+	background-color: rgba(206, 216, 232,0.6);
+}
+
+.col-md-6 {
+    width: 48%;
+}
+
+.contact
+{
+	font-size: 80px;
+}
+tr:hover
+{
+	background-color: rgba(206, 216, 232,0.6);
+}
+
+th,td
+{
+	padding: 30px;
+}

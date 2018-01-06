@@ -8,10 +8,11 @@ html, body
 
 body{
 	background-image: linear-gradient(to bottom right,rgba(168, 194, 237,0.2), rgba(3, 18, 43,0.9)),url(./images/bg10.jpg);
-	background-size: cover;
+	background-size: cover,cover;
 	background-repeat: no-repeat; 
 	color: white;
 	overflow-x: hidden;
+	overflow-y: hidden;
 	
 	
 
